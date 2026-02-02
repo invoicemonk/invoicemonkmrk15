@@ -45,6 +45,7 @@ import TaxComplianceGuide from "./pages/guides/TaxComplianceGuide";
 import FreelancingGuide from "./pages/guides/FreelancingGuide";
 import EstimatesGuide from "./pages/guides/EstimatesGuide";
 import Glossary from "./pages/Glossary";
+import Explore from "./pages/Explore";
 
 const queryClient = new QueryClient();
 
@@ -100,6 +101,7 @@ const App = () => (
             
             {/* Resources */}
             <Route path="/glossary" element={<Glossary />} />
+            <Route path="/explore" element={<Explore />} />
             
             {/* Legacy redirects - maintain old WordPress URLs */}
             <Route path="/features" element={<Redirect to="/why-invoicemonk" />} />

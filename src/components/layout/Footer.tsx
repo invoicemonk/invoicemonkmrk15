@@ -22,6 +22,7 @@ const footerLinks = {
     { name: 'Blog', href: '/blog' },
     { name: 'Glossary', href: '/glossary' },
     { name: 'Guides', href: '/guides' },
+    { name: 'Explore Topics', href: '/explore' },
     { name: 'Video Tutorials', href: 'https://learn.invoicemonk.com', external: true },
     { name: 'Free Invoice Generator', href: '/free-invoice-generator' },
     { name: 'For Freelancers', href: '/freelancers' },
