@@ -8,7 +8,7 @@ interface SEOHeadProps {
   ogImage?: string;
   ogImageWidth?: number;
   ogImageHeight?: number;
-  ogType?: 'website' | 'article';
+  ogType?: 'website' | 'article' | 'profile';
   noindex?: boolean;
   article?: {
     publishedTime: string;
@@ -32,7 +32,7 @@ export function SEOHead({
   const { locale } = useLocale();
   const baseUrl = 'https://invoicemonk.com';
   const fullCanonical = canonical || baseUrl;
-
+  
   return (
     <Helmet>
       {/* Primary Meta Tags */}
@@ -41,16 +41,8 @@ export function SEOHead({
       <meta name="author" content="Invoicemonk" />
       {noindex && <meta name="robots" content="noindex, nofollow" />}
       
-      {/* Canonical */}
+      {/* Canonical - single canonical URL, no hreflang needed for single-language site */}
       <link rel="canonical" href={fullCanonical} />
-      
-      {/* Hreflang for international targeting */}
-      <link rel="alternate" hrefLang="en-NG" href={`${baseUrl}${canonical?.replace(baseUrl, '') || '/'}`} />
-      <link rel="alternate" hrefLang="en-US" href={`${baseUrl}${canonical?.replace(baseUrl, '') || '/'}`} />
-      <link rel="alternate" hrefLang="en-GB" href={`${baseUrl}${canonical?.replace(baseUrl, '') || '/'}`} />
-      <link rel="alternate" hrefLang="en-CA" href={`${baseUrl}${canonical?.replace(baseUrl, '') || '/'}`} />
-      <link rel="alternate" hrefLang="en-AU" href={`${baseUrl}${canonical?.replace(baseUrl, '') || '/'}`} />
-      <link rel="alternate" hrefLang="x-default" href={baseUrl} />
       
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={ogType} />

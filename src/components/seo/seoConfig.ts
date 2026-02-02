@@ -149,6 +149,13 @@ export const pageSEO: Record<string, PageSEO> = {
     priority: 0.7,
     changefreq: 'weekly',
   },
+  '/glossary': {
+    getTitle: () => 'Business Finance Glossary | Invoicing & Accounting Terms | Invoicemonk',
+    getDescription: () => 'Comprehensive glossary of invoicing, payments, accounting, tax, and business finance terms. Learn key concepts for small business owners and freelancers.',
+    ogType: 'website',
+    priority: 0.6,
+    changefreq: 'monthly',
+  },
 };
 
 export const getPageSEO = (path: string): PageSEO | undefined => {
