@@ -7,6 +7,7 @@ import {
   type ClusterType,
   type ContentPriority 
 } from './topicalMap';
+import newBlogPosts3 from './newBlogPosts3';
 
 export interface BlogPost {
   slug: string;
@@ -7891,7 +7892,9 @@ Thank you for your business!
         answer: "Use a pre-send checklist covering: correct client details, unique invoice number, specific due date, itemized descriptions, accurate calculations, tax compliance, and clear payment instructions. Invoicing software automates many of these checks."
       }
     ]
-  }
+  },
+  // Import additional blog posts from Phase 3
+  ...newBlogPosts3
 ];
 
 export const getBlogPostBySlug = (slug: string): BlogPost | undefined => {
