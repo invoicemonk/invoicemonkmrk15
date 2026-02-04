@@ -53,7 +53,7 @@ const BlogPost = () => {
   }
 
   const { pillar, clusterType } = getPostClusterInfo(post.slug);
-  const relatedPosts = getRelatedPostsEnhanced(post.slug, 3);
+  const relatedPosts = getRelatedPostsEnhanced(post.slug, 5);
   const clusterPosts = pillar ? getPostsForPillar(pillar.id) : [];
   
   // Find the hub post for this cluster (the pillar content page)
@@ -80,7 +80,7 @@ const BlogPost = () => {
     { name: 'Home', url: 'https://invoicemonk.com' },
     { name: 'Blog', url: 'https://invoicemonk.com/blog' },
     ...(pillar 
-      ? [{ name: pillar.title, url: `https://invoicemonk.com/blog?pillar=${pillar.id}` }]
+      ? [{ name: pillar.title, url: `https://invoicemonk.com/blog/topic/${pillar.id}` }]
       : [{ name: post.category, url: `https://invoicemonk.com/blog?category=${encodeURIComponent(post.category)}` }]
     ),
     { name: post.title, url: articleUrl }
@@ -153,9 +153,12 @@ const BlogPost = () => {
       />
       <BreadcrumbSchema items={breadcrumbs} />
       
-      {/* Add FAQSchema for pillar content with FAQ data */}
-      {isPillarPage && pillar && pillar.faq.length > 0 && (
+      {/* FAQ Schema - from pillar or article-specific FAQ */}
+      {isPillarPage && pillar?.faq && pillar.faq.length > 0 && (
         <FAQSchema items={pillar.faq} />
+      )}
+      {!isPillarPage && post.faq && post.faq.length > 0 && (
+        <FAQSchema items={post.faq} />
       )}
 
       <article className="py-16 lg:py-24">

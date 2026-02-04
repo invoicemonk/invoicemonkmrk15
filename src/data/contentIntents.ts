@@ -95,6 +95,59 @@ export const experienceConfig: Record<ExperienceLevel, { label: string; descript
 
 // Map of blog post slugs to their intent metadata
 export const postIntentMetadata: Record<string, ContentMetadata> = {
+  // New Month 1 Content (February 2026)
+  'how-to-create-first-professional-invoice': {
+    intent: 'informational',
+    stage: 'awareness',
+    experienceLevel: 'beginner',
+    queryPatterns: [
+      'how to create an invoice for the first time',
+      'first invoice as freelancer',
+      'invoice tutorial for beginners',
+      'step by step invoice creation',
+      'how to make my first invoice',
+      'creating an invoice as a new business'
+    ],
+    problemsSolved: [
+      'Don\'t know how to create my first invoice',
+      'Starting freelancing and need to bill clients',
+      'Nervous about sending first invoice',
+      'Never created an invoice before',
+      'Need to learn invoicing from scratch'
+    ],
+    nextSteps: [
+      '5-essential-elements-of-an-invoice-a-guide-for-small-business-owners',
+      'invoice-numbering-best-practices',
+      'how-to-write-invoice-payment-terms'
+    ]
+  },
+  'invoice-mistakes-that-cost-you-money': {
+    intent: 'problem-solving',
+    stage: 'consideration',
+    experienceLevel: 'beginner',
+    queryPatterns: [
+      'common invoice mistakes',
+      'invoice errors to avoid',
+      'why invoices get rejected',
+      'invoice problems',
+      'invoicing mistakes small business',
+      'why am I not getting paid on time'
+    ],
+    problemsSolved: [
+      'Clients complain about my invoices',
+      'Invoices keep getting rejected',
+      'Taking too long to get paid',
+      'Making costly invoicing errors',
+      'Payments are always delayed',
+      'Not sure what\'s wrong with my invoices'
+    ],
+    nextSteps: [
+      'complete-guide-to-business-invoicing',
+      'ultimate-guide-getting-paid-faster',
+      'setting-up-automatic-payment-reminders'
+    ]
+  },
+  
   // Pillar content - typically informational, awareness/consideration stage
   'complete-guide-to-business-invoicing': {
     intent: 'informational',
