@@ -48,6 +48,12 @@ import EstimatesGuide from "./pages/guides/EstimatesGuide";
 import Glossary from "./pages/Glossary";
 import Explore from "./pages/Explore";
 
+// Tool pages
+import InternationalPaymentFeeCalculator from "./pages/tools/InternationalPaymentFeeCalculator";
+import PaypalVsWiseFees from "./pages/tools/PaypalVsWiseFees";
+import CheapestInternationalPayments from "./pages/tools/CheapestInternationalPayments";
+import ReceiveCurrencyInCountry from "./pages/tools/ReceiveCurrencyInCountry";
+
 const queryClient = new QueryClient();
 
 // App component
@@ -105,6 +111,12 @@ const App = () => (
             {/* Resources */}
             <Route path="/glossary" element={<Glossary />} />
             <Route path="/explore" element={<Explore />} />
+            
+            {/* Payment Tools */}
+            <Route path="/international-payment-fee-calculator" element={<InternationalPaymentFeeCalculator />} />
+            <Route path="/paypal-vs-wise-fees" element={<PaypalVsWiseFees />} />
+            <Route path="/cheapest-way-to-receive-international-payments" element={<CheapestInternationalPayments />} />
+            <Route path="/receive-:currency-in-:country-cost" element={<ReceiveCurrencyInCountry />} />
             
             {/* Legacy redirects - maintain old WordPress URLs */}
             <Route path="/features" element={<Redirect to="/why-invoicemonk" />} />

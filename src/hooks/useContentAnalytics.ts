@@ -9,7 +9,9 @@ export type AnalyticsEventType =
   | 'reading_time'
   | 'topic_explore'
   | 'journey_step'
-  | 'ab_impression';
+  | 'ab_impression'
+  | 'calculator_usage'
+  | 'tool_cta_click';
 
 interface AnalyticsEvent {
   type: AnalyticsEventType;

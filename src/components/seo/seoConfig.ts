@@ -191,6 +191,27 @@ export const pageSEO: Record<string, PageSEO> = {
     priority: 0.6,
     changefreq: 'weekly',
   },
+  '/international-payment-fee-calculator': {
+    getTitle: () => 'International Payment Fee Calculator | Compare Transfer Costs | Invoicemonk',
+    getDescription: () => 'Calculate and compare international payment fees across Wise, PayPal, bank transfers, and card payments. Find the cheapest way to receive money from abroad.',
+    ogType: 'website',
+    priority: 0.8,
+    changefreq: 'weekly',
+  },
+  '/paypal-vs-wise-fees': {
+    getTitle: () => 'PayPal vs Wise Fees Compared | Which Is Cheaper? | Invoicemonk',
+    getDescription: () => 'Compare PayPal and Wise fees for international payments. See real fee breakdowns, exchange rate spreads, and find out which saves you more money.',
+    ogType: 'website',
+    priority: 0.8,
+    changefreq: 'weekly',
+  },
+  '/cheapest-way-to-receive-international-payments': {
+    getTitle: () => 'Cheapest Way to Receive International Payments | 2026 Guide | Invoicemonk',
+    getDescription: () => 'Find the cheapest way to receive international payments. Compare Wise, PayPal, bank transfers, and cards. Ranked by cost with tips to reduce fees.',
+    ogType: 'website',
+    priority: 0.8,
+    changefreq: 'weekly',
+  },
 };
 
 export const getPageSEO = (path: string): PageSEO | undefined => {
