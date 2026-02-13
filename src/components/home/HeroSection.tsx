@@ -51,7 +51,7 @@ export function HeroSection() {
               </div>
             </div>
             <span className="text-body-sm text-muted-foreground">
-              4.6/5 from 10,000+ reviews
+              4.6/5 on Google
             </span>
           </motion.div>
 

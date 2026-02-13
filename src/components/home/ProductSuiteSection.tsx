@@ -16,34 +16,16 @@ const flagshipFeatures = [
 
 const comingSoonProducts = [
   {
-    name: 'Expenses',
-    icon: Wallet,
-    description: 'Track business expenses, scan receipts, and categorize spending automatically.',
-    href: '/expenses',
-  },
-  {
     name: 'Payments',
     icon: CreditCard,
     description: 'Accept online payments, set up payment plans, and reconcile transactions.',
     href: '/payments',
   },
   {
-    name: 'Accounting',
-    icon: Calculator,
-    description: 'Full double-entry accounting with financial statements and tax reports.',
-    href: '/accounting',
-  },
-  {
     name: 'Estimates',
     icon: FileCheck,
     description: 'Create professional quotes and convert approved estimates to invoices.',
     href: '/estimates',
-  },
-  {
-    name: 'Receipts',
-    icon: Receipt,
-    description: 'Digital receipt management with OCR scanning and organization.',
-    href: '/receipts',
   },
 ];
 

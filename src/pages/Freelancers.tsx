@@ -68,7 +68,7 @@ const Freelancers = () => {
           description="Spend less time on paperwork and more time doing what you love. Invoicemonk handles your invoicing, so you can focus on your craft."
           primaryCta={{ text: 'Start Free', href: 'https://app.invoicemonk.com/signup' }}
           secondaryCta={{ text: 'View Pricing', href: '/pricing', external: false }}
-          trustBadge="Join 10,000+ freelancers who trust Invoicemonk"
+          trustBadge="Join freelancers who trust Invoicemonk"
           backgroundVariant="gradient"
         />
         {/* Floating Elements */}
