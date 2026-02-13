@@ -25,7 +25,7 @@ export function WaveCTASection() {
             <span className="font-serif italic text-primary">your finances?</span>
           </h2>
           <p className="text-body-lg text-white/90 mb-10">
-            Join over 10,000 businesses worldwide who trust Invoicemonk for their financial records.
+            Join businesses worldwide who trust Invoicemonk for their financial records.
           </p>
 
           <motion.div

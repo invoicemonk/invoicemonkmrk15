@@ -421,7 +421,6 @@ export const pillarClusters: TopicalCluster[] = [
       'recurring-invoices-automating-billing',
       'invoice-disputes-how-to-handle-professionally',
       'credit-notes-and-invoice-corrections',
-      // New articles
       'how-to-create-first-professional-invoice',
       'invoice-mistakes-that-cost-you-money',
       'digital-vs-paper-invoices-pros-and-cons',
@@ -438,7 +437,6 @@ export const pillarClusters: TopicalCluster[] = [
       'payment-reminder-email-templates',
       'early-payment-discounts-do-they-work',
       'cash-flow-forecasting-for-freelancers',
-      // New articles
       'setting-up-automatic-payment-reminders',
       'payment-terms-comparison-net-30-vs-net-15',
       'mobile-payment-options-for-small-business',
@@ -457,7 +455,6 @@ export const pillarClusters: TopicalCluster[] = [
       'simple-accounting-for-small-business-beginners',
       'how-to-do-accounting-small-business-step-by-step',
       'small-business-accounting-for-owners',
-      // New articles
       'monthly-financial-review-checklist',
       'business-bank-account-vs-personal',
       'financial-reports-every-business-needs',
@@ -475,7 +472,6 @@ export const pillarClusters: TopicalCluster[] = [
       'irs-invoice-requirements-us-compliance',
       'cra-invoice-standards-canadian-compliance',
       'ato-invoice-requirements-australian-compliance',
-      // New articles
       'quarterly-tax-payment-guide',
       'business-tax-calendar-by-country',
       'business-record-keeping-requirements',
@@ -491,7 +487,6 @@ export const pillarClusters: TopicalCluster[] = [
       'freelance-contract-templates',
       'pricing-your-freelance-services',
       'freelance-time-tracking-guide',
-      // New articles
       'finding-your-first-freelance-clients',
       'freelance-portfolio-best-practices',
       'managing-multiple-clients-efficiently',
@@ -507,7 +502,6 @@ export const pillarClusters: TopicalCluster[] = [
       'how-to-price-project-work',
       'following-up-on-proposals',
       'proposal-rejection-next-steps',
-      // New articles
       'proposal-vs-estimate-vs-quote-explained',
       'winning-proposal-templates-by-industry',
       'document-types-comparison-business'

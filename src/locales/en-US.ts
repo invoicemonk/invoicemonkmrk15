@@ -18,13 +18,13 @@ export const enUS: LocaleConfig = {
       subheadline: "Professional invoicing, payments, and accounting software built for American small businesses and freelancers.",
       cta: "Start Your Free Trial",
       secondaryCta: "Watch Demo",
-      trustBadge: "Trusted by 15,000+ American businesses",
+      trustBadge: "Trusted by American small businesses",
     },
     compliance: {
       authority: "IRS",
       message: "Tax-ready invoices with all required documentation",
     },
-    socialProof: "Join 15,000+ businesses across the United States",
+    socialProof: "Join growing businesses across the United States",
     paymentGateway: "Stripe",
     seo: {
       siteTitle: "Invoicemonk - Professional Invoicing Software for Small Business",

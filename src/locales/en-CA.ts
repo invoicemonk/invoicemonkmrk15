@@ -18,13 +18,13 @@ export const enCA: LocaleConfig = {
       subheadline: "Create CRA-compliant invoices, track GST/HST, and manage your finances with ease. Built for Canadian businesses.",
       cta: "Start Your Free Trial",
       secondaryCta: "Watch Demo",
-      trustBadge: "Trusted by 8,000+ Canadian businesses",
+      trustBadge: "Trusted by Canadian businesses",
     },
     compliance: {
       authority: "CRA",
       message: "Compliant with Canada Revenue Agency requirements including GST/HST",
     },
-    socialProof: "Join 8,000+ businesses across Canada",
+    socialProof: "Join growing businesses across Canada",
     paymentGateway: "Stripe",
     seo: {
       siteTitle: "Invoicemonk Canada - CRA-Compliant Invoicing Software",

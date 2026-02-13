@@ -18,13 +18,13 @@ export const enAU: LocaleConfig = {
       subheadline: "Create ATO-compliant invoices, track GST, and streamline your finances. Made for Australian entrepreneurs and SMEs.",
       cta: "Start Your Free Trial",
       secondaryCta: "Watch Demo",
-      trustBadge: "Trusted by 6,000+ Australian businesses",
+      trustBadge: "Trusted by Australian businesses",
     },
     compliance: {
       authority: "ATO",
       message: "Compliant with Australian Tax Office requirements including GST",
     },
-    socialProof: "Join 6,000+ businesses across Australia",
+    socialProof: "Join growing businesses across Australia",
     paymentGateway: "Stripe",
     seo: {
       siteTitle: "Invoicemonk Australia - ATO-Compliant Invoicing Software",

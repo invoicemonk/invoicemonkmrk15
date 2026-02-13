@@ -74,7 +74,7 @@ export function WaveTestimonials() {
             Testimonials
           </p>
           <h2 className="text-h2 text-heading">
-            Loved by <span className="font-serif italic">10,000+</span> businesses worldwide
+            Loved by <span className="font-serif italic">businesses</span> worldwide
           </h2>
         </AnimatedSection>
 

@@ -50,6 +50,7 @@ import Explore from "./pages/Explore";
 
 const queryClient = new QueryClient();
 
+// App component
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <LocaleProvider>

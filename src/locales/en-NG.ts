@@ -18,13 +18,13 @@ export const enNG: LocaleConfig = {
       subheadline: "Create NRS-compliant invoices, track payments, and manage expenses. Built for Nigerian entrepreneurs and SMEs.",
       cta: "Start Your Free Trial",
       secondaryCta: "Watch Demo",
-      trustBadge: "Trusted by 5,000+ Nigerian businesses",
+      trustBadge: "Trusted by Nigerian businesses",
     },
     compliance: {
       authority: "NRS",
       message: "Fully compliant with Nigerian Revenue Service requirements",
     },
-    socialProof: "Join 5,000+ businesses across Nigeria",
+    socialProof: "Join growing businesses across Nigeria",
     paymentGateway: "Paystack",
     seo: {
       siteTitle: "Invoicemonk Nigeria - NRS-Compliant Invoicing Software",
