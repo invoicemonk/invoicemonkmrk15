@@ -155,14 +155,14 @@ const Receipts = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-wave-orange/10 text-wave-orange mb-6"
-              >
-                <span className="text-body-sm font-medium">Coming Soon</span>
-              </motion.div>
+               <motion.div
+                 initial={{ opacity: 0, y: 20 }}
+                 animate={{ opacity: 1, y: 0 }}
+                 transition={{ duration: 0.5 }}
+                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-100 text-green-700 mb-6"
+               >
+                 <span className="text-body-sm font-medium">✓ Available Now</span>
+               </motion.div>
 
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -195,22 +195,22 @@ const Receipts = () => {
                 a receipt again with AI-powered scanning and smart organization.
               </motion.p>
 
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.4 }}
-                className="flex flex-col sm:flex-row gap-4"
-              >
-                <Button
-                  asChild
-                  size="lg"
-                  className="rounded-full px-8 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group"
-                >
-                  <a href="https://app.invoicemonk.com/signup">
-                    Join the Waitlist
-                    <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
-                  </a>
-                </Button>
+               <motion.div
+                 initial={{ opacity: 0, y: 20 }}
+                 animate={{ opacity: 1, y: 0 }}
+                 transition={{ duration: 0.5, delay: 0.4 }}
+                 className="flex flex-col sm:flex-row gap-4"
+               >
+                 <Button
+                   asChild
+                   size="lg"
+                   className="rounded-full px-8 h-14 text-body-lg bg-accent-orange hover:bg-accent-orange/90 text-accent-orange-foreground shadow-soft-md group"
+                 >
+                   <a href="https://app.invoicemonk.com/signup">
+                     Start Free
+                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-0.5 transition-transform" />
+                   </a>
+                 </Button>
                 <Button
                   asChild
                   variant="outline"
@@ -291,7 +291,7 @@ const Receipts = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-h2 text-heading mb-4">
-              What's <span className="font-serif italic text-primary">coming</span>
+              Why you'll <span className="font-serif italic text-primary">love it</span>
             </h2>
             <p className="text-body-lg text-muted-foreground">
               Digital receipt management that integrates with your expense tracking.

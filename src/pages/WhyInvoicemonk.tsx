@@ -46,8 +46,8 @@ const differentiators = [
 ];
 
 const trustIndicators = [
-  { icon: FileText, label: '100,000+', description: 'Invoices processed' },
-  { icon: Users, label: '10,000+', description: 'Businesses trust us' },
+  { icon: FileText, label: 'Growing', description: 'Invoices processed' },
+  { icon: Users, label: 'Trusted', description: 'Businesses trust us' },
   { icon: Globe, label: '50+', description: 'Countries served' },
   { icon: Shield, label: '99.9%', description: 'Uptime guarantee' },
 ];
