@@ -25,6 +25,9 @@ const footerLinks = {
     { name: 'Explore Topics', href: '/explore' },
     { name: 'Video Tutorials', href: 'https://learn.invoicemonk.com', external: true },
     { name: 'Free Invoice Generator', href: '/free-invoice-generator' },
+    { name: 'Payment Fee Calculator', href: '/international-payment-fee-calculator' },
+    { name: 'PayPal vs Wise Fees', href: '/paypal-vs-wise-fees' },
+    { name: 'Cheapest International Payments', href: '/cheapest-way-to-receive-international-payments' },
   ],
   topics: [
     { name: 'Invoicing Tips', href: '/blog/topic/invoicing-mastery' },
